@@ -64,30 +64,30 @@ header nav ul li a:hover {
 }
 
 .hero {
-    /* Replace with your actual image path */
+   
     background-image: url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=80');
     background-size: cover;
     background-position: center center;
     color: #fff;
-    padding: 100px 0; /* Increased padding for more background visibility */
+    padding: 100px 0;
     text-align: center;
-    position: relative; /* For the overlay */
-    transition: opacity 0.3s ease-out; /* For smooth fade */
+    position: relative; 
+    transition: opacity 0.3s ease-out;
 }
 
-.hero::before { /* Overlay for better text readability */
+.hero::before { 
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Adjust darkness as needed */
-    z-index: 0; /* Behind the .container content */
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0; 
 }
 
 .hero .container {
-    position: relative; /* To sit on top of the ::before overlay */
+    position: relative; 
     z-index: 1;
 }
 
@@ -118,11 +118,11 @@ header nav ul li a:hover {
     background: #555;
 }
 
-/* Specific styling for the button within the hero section if needed */
+
 .hero .btn {
-    background: #50a3a2; /* Example: White button on dark hero */
+    background: #50a3a2;
     color: #ffffff;
-    /* border: 1px solid #fff; */
+  
 }
 .hero .btn:hover {
     background: #3b7b7a;
@@ -135,7 +135,7 @@ section {
     border-bottom: 1px solid #ddd;
 }
 
-section#inicio { /* Remove bottom border from hero if it's the first visual element */
+section#inicio { 
     border-bottom: none;
 }
 
